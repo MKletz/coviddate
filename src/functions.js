@@ -3,18 +3,18 @@ function determineOrdinal(Day_Count) {
   var ordinal = ''
 
   switch(Last_Digit) {
-      case "1":
-        ordinal = 'st'
-        break
-      case "2":
-        ordinal = 'nd'
-        break
-      case "3":
-        ordinal = 'rd'
-        break
-      default:
-        ordinal = 'th'
-        break    
+    case "1":
+      ordinal = 'st'
+      break
+    case "2":
+      ordinal = 'nd'
+      break
+    case "3":
+      ordinal = 'rd'
+      break
+    default:
+      ordinal = 'th'
+      break
   }
 
   return ordinal
