@@ -1,4 +1,3 @@
-
 function determineOrdinal(Day_Count) {
   var Last_Digit = Day_Count.toString().slice(-1)
   var ordinal = ''
