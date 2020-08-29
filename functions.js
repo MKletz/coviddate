@@ -23,7 +23,7 @@ function determineOrdinal(Day_Count) {
 
 function updateClock() {
     var today = new Date();
-    var covidStart = new Date("03/14/2020");
+    var covidStart = new Date("03/01/2020");
     var Difference_In_Time = covidStart.getTime() - today.getTime();
     var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
     var Rounded_Days = Math.round(Difference_In_Days) * -1
