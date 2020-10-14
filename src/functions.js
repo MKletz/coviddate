@@ -30,9 +30,9 @@ function updateClock() {
   var DayText = Rounded_Days + Ordinal
 
   document.getElementById('d').innerHTML = DayText
-  document.getElementById('h').innerHTML = today.getHours()
-  document.getElementById('m').innerHTML = today.getMinutes()
-  document.getElementById('s').innerHTML = today.getSeconds()
+  document.getElementById('h').innerHTML = today.getHours().toString().padStart(2,'0')
+  document.getElementById('m').innerHTML = today.getMinutes().toString().padStart(2,'0')
+  document.getElementById('s').innerHTML = today.getSeconds().toString().padStart(2,'0')
 }
 
 function clockGoBrrr() {
