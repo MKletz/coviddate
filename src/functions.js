@@ -41,7 +41,7 @@ function clockGoBrrr() {
 }
 
 function hiMich() {
-  var random = Math.floor(Math.random() * 3);
+  var random = Math.floor(Math.random() * 4);
   var messages = ["Hi Mich!", "You're beautiful!", "Love you!", "Come see me!"];
   alert(messages[random]);
 }
